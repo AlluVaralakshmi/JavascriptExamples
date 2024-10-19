@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylemenu.css">
+    <script src="menujs.js"></script>
+</head>
+<body>
+    
+    <div class="wrapper">
+    <div class="container">
+        <h1 id="heading">Calculator Menu</h1>
+        <label for="num1">Num1 : </label>
+        <input type="number" name="num1" id="num1" ><br><br>
+        <label for="num2">Num2 : </label>
+        <input type="number" name="num2" id="num2"><br><br>
+        <button onclick="performOperation('add')">Add</button>
+        <button onclick="performOperation('multiply')">Mul</button>
+        <div class="result" id="result"></div>
+    </div>
+</div>
+</body>
+</html>
